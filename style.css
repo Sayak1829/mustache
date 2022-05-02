@@ -1,0 +1,49 @@
+body{
+    text-align: center;
+    background-image: linear-gradient(to top right,yellow,greenyellow,yellowgreen,lime,limegreen,green,darkgreen,blue,darkblue);
+}
+.btn-warning:hover {
+    background-color: limegreen;
+}
+
+canvas {
+    animation-name: glow;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes glow {
+    from {
+        box-shadow: 5px 5px 40px aqua;
+
+
+    }
+
+    to {
+        box-shadow: 5px 5px 40px rgb(47, 0, 255);
+
+
+    }
+    from {
+        box-shadow: 5px 5px 40px yellow;
+
+
+    }
+
+    to {
+        box-shadow: 5px 5px 40px greenyellow;
+
+
+    }
+    from {
+        box-shadow: 5px 5px 40px crimson;
+
+
+    }
+
+    to {
+        box-shadow: 5px 5px 40px darkblue;
+
+
+    }
+}
